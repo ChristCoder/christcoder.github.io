@@ -1,0 +1,340 @@
+body {
+  background: linear-gradient(black, #4b4b4b);
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#slide {
+  color: cyan;
+  font-family: "Arial Black", Times, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#slide, #nav {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #c3c3c3;
+}
+
+#nav {
+  padding: 10px;
+  display: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+	
+}
+
+li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+li a {
+	display: block;
+	color: white;
+    text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+    font-size: 20px;
+    font-family: Geneva, Times, sans-serif;
+    text-transform: uppercase;
+}
+
+li .active {
+  background-color: white;
+  color: black;
+}
+
+li a:hover:not(.active) {
+  text-align: center;
+  background-color: #555;
+  color: white;
+}
+
+.h2 {
+  color: white;
+  height: 500px;
+  width: 100%;
+  display: table;
+}
+
+.title {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 30px;
+}
+/*About Page*/
+#abouth1 {
+  opacity: 0.9;
+  color: cyan;
+  padding: 5px;
+  font-family: "Arial Black", Courier, sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.somethingElse {
+  float: right;
+}
+
+.selfie {
+  transform: rotate(180deg);
+  border-radius: 50%;
+  width: 360px;
+  height: 300px;
+}
+
+div.p-left {
+  width: 900px;
+  height: 300px;
+  opacity: 0.5;
+  border-radius: 3%;
+  padding: 15px;
+}
+
+
+.aboutp1 {
+  font-family: Geneva;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+/*Project Page*/
+
+.proh1 {
+  color: cyan;
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 2px;
+  opacity: 0.9;
+  width: auto;
+}
+
+.rps {
+  background-color: red;
+  margin: auto;
+  width: 1100px;
+  height: 500px;
+}
+
+#btnrps {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 232px 525px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+#btnrps:hover {
+  background-color: white;
+  color: black;
+}
+
+#mash {
+  background: white;
+  margin-top: 10px;
+  margin: auto;
+  width: 1100px;
+  height: 500px;
+  text-align: center;
+  font-family: serif;
+  font-size: 30px;
+}
+
+#btnmash {
+  background-color: rgb(0, 53, 189);
+  border: none;
+  color: white;
+  padding: 232px 525px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+#btnmash:hover {
+  background-color: white;
+  color: black;
+}
+
+#rpsBtn, #rps {
+  margin-top: 45px;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#rps {
+  width: 850px;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 425px;
+  padding 10px;
+  display: none;
+}
+
+#pongBtn, #pong {
+  margin-top: 45px;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#pong {
+  width: 850px;
+  margin-top: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 425px;
+  padding 10px;
+  display: none;
+}
+
+/* Contact Page*/
+.contact1 {
+  padding: 5px;
+  margin: 10px 0 10px 0;
+  opacity: 0.9;
+  font-family: "Arial Black", Courier, sans-serif;
+  font-size: 18px;
+  color: floralwhite;  
+}
+
+.contacth3 {
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 50px;
+  background: black;
+}
+
+
+
+th, td {
+  border-bottom: 1px solid white;
+  color: cyan;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 29px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+form {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 35px;
+  width: 70%;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  transition-duration: 0.4s;
+}
+
+input[type=text]:hover, input[type=email]:hover, textarea:hover {
+    background: #517689;
+    color: white;
+}
+
+.submit {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Ariel Black" sans-serif;
+  transition-duration: 0.4s;
+}
+
+.submit:hover {
+  background-color: white;
+  color: black;
+}
+
+.rock {
+    height: 200px;
+    width: 200px;
+    background: white;
+    margin: 10px 250px 10px 10px;
+}
+
+.paper {
+    height: 200px;
+    width: 200px;
+    background: orange;
+    margin: 10px 10px 10px 10px;
+}
+
+.scissors {
+    height: 200px;
+    width: 200px;
+    background: blue;
+    margin: 10px 10px 10px 250px;
+}
+
+.container {
+    display: flex;
+}
+#result {
+    border: 2px solid black;
+    height: auto;
+    width:auto;
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+
+.footer { 
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: table;
+}
+
+.contactInfo {
+  display: table-cell;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  opacity: 0.3;
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div id="slide">MENU</div>
+    <div id="nav">
+    <ul>
+      <li><a href="ChristCoder.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    </div>
+  <div class="contact1"><h1>THANKS FOR STOPPING BY!</h1></div>
+  <h3 class="contacth3">I thank you for taking the time to visit my page and checking out what I can do. I am constantly learning and getting better and better. I hope that we can begin a long lasting partnership and friendship. Have a WONDERFUL DAY!</h3>
+  <div id="contact">
+  <form name="form" onsubmit="return check()" action="PHP/submit.php" method="post" >
+  <table>
+    <tr>
+      <th colspan="2">CONTACT ME</th>
+    </tr>
+    <tr>
+      <td class="title">First Name:</td>
+      <td><input type="text" id="firstname" name="firstname"></td>
+    </tr>
+    <tr>
+      <td class="title">Last Name:</td>
+      <td><input type="text" id="lastname" name="lastname"></td>
+    </tr>
+    <tr>
+      <td class="title">Company Name:</td>
+      <td><input type="text" name="company"></td>
+    </tr>
+    <tr>
+      <td class="title">Email Address:</td>
+      <td><input type="email" id="email" name="email"></td>
+    </tr>
+    <tr>
+      <td colspan="2">Comments</td>
+    </tr>
+    <tr>
+      <td colspan="2"><textarea type="comment" name="comment" rows="5" cols="60"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input class="submit" type="submit" name="submit" value="SUBMIT"></td>
+    </tr>
+
+  </table>
+</form>
+</div>
+    <hr> 
+    <div class="footer">
+      <div class="contactInfo">
+
+      <h3>Email: christcoder@outlook.com</h3>
+      </div>
+    </div>
+  <script type='text/javascript' src="../J-Query/jquery-3.js"></script>
+   <script src="script.js"></script>
+  </body>
+</html>
